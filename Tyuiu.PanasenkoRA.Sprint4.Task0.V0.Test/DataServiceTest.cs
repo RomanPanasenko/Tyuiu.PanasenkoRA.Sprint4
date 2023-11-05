@@ -11,6 +11,7 @@ namespace Tyuiu.PanasenkoRA.Sprint4.Task0.V0.Test
         [TestMethod]
         public void ValidGetSumEvenArrEl()
         {
+            
             DataService ds = new DataService();
             int[] array = { 1, 4, 2, 6, 4, 8, 6, 7, 8, 4 };
             int res = ds.GetSumEvenArrEl(array);

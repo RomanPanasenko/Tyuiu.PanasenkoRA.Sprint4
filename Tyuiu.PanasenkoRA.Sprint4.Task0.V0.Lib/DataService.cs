@@ -11,6 +11,7 @@ namespace Tyuiu.PanasenkoRA.Sprint4.Task0.V0.Lib
     {
         public int GetSumEvenArrEl(int[] array)
         {
+            
             int s = 0;
             int i;
             for (i = 0; i < array.Length; i++)
