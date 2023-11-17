@@ -11,8 +11,11 @@ namespace Tyuiu.PanasenkoRA.Sprint4.Task6.V0.Test
         public void ValidCalc()
         {
             DataService ds = new DataService();
-            var tex = new string[] { "Компьютер", "Телефон", "Планшет", "Принтер", "Сканер", "Монитор", "Клавиатура" };
-            var res = ds.Calculate()
+            var tex = new string[]{ "Microsoft", "Google", "Apple", "Amazon", "Facebook", "Tesla", "Netflix"};
+
+            int res = ds.Calculate(tex);
+            int wait = 2;
+            Assert.AreEqual(wait, res);
         }
     }
 }
