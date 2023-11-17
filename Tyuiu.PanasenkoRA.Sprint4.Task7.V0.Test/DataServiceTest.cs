@@ -11,6 +11,7 @@ namespace Tyuiu.PanasenkoRA.Sprint4.Task7.V0.Test
         public void ValidCalc()
         {
             int rows = 3;
+
             int columns = 4;
             int[,] mtrx = new int[rows, columns];
             string str = "658932125478";

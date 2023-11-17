@@ -12,6 +12,7 @@ namespace Tyuiu.PanasenkoRA.Sprint4.Task7.V0.Lib
         public int Calculate(int rows, int columns, string value)
         {
             int[,] mtrx = new int[rows, columns];
+
             int index = 0;
             for (int i = 0; i < rows; i++)
             {
